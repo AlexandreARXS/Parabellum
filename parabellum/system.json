@@ -1,0 +1,36 @@
+{
+    "name": "parabellum",
+    "title": "Parabellum",
+    "description": "Sistema em desenvolvimento",
+    "author": [{
+        "name":"Alexandre",
+        "email": "alexandrearxs@gmail.com",
+        "discord": "Dezoitao"
+        }],
+    "version": 0.01,
+    "minimumCoreVersion": "0.6.4",
+    "compatibleCoreVersion":"0.6.4",
+    "esmodule":["parabellum.js"],
+    "style":["parabellum.css"],
+    "packs":[{
+        "name": "items",
+        "label": "My Items",
+        "type": "Item"
+      },
+      {
+        "name": "monsters",
+        "label": "My Monsters",
+        "type": "Actor"
+      }
+    ],
+    "language":[{
+        "lang":"en",
+        "name": "English",
+        "path:": "lang/en.json"
+    }
+    ],
+    "gridDistance":1.5,
+    "gridUnits":"meters",
+    "primaryTolkenAttribute":"Vida",
+    "iniative":"2d6 + @agilidade"
+}

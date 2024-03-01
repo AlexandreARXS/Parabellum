@@ -1,0 +1,30 @@
+{
+    "Actor":{},
+    "Item":{
+        "types":["Arma", "Veiculo", "Armadura"],
+        "templates":{
+            "descricaoItens":{
+                "descricao":""
+            }
+        },
+        "Arma":{
+            "templates":["descricaoDoItem"],
+            "attackWith":"guns",
+            "dano":0,
+            "ocultacao":0,
+            "recarga":0,
+            "pumpAction": false
+        },
+        "Veiculo":{
+            "templates":["descricaoDoItem"],
+            "velocidade": 0,
+            "controle":0,
+            "pessoal": false
+        }, 
+        "Armadura": {
+            "templates":["descricaoDoItem"],
+            "defesa":0,
+            "peso":0
+        }
+    }
+}
