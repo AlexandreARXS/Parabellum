@@ -1,0 +1,19 @@
+{
+    "parabellum":{
+        "attack":{
+            "none": "",
+            "armas": "Armas",
+            "lamina": "Laminas",
+            "tecnologia": "Cinética",
+            "criatura": "Humano"
+        },
+        "weapon":{
+            "attackWith": "Ataque com:",
+            "damage": "Dano",
+            "conceal": "Ocultação",
+            "reload": "Recarga",
+            "attackBonus": "Bônus vs Mooks",
+            "pumpAction": "Pump Action?"
+        }
+    }
+}

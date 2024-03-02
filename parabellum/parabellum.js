@@ -1,4 +1,4 @@
-import { parabellum} from "./module/config";
+import {parabellum} from "./module/config";
 import ParabellumItemSheet from "./module/sheets/ParabellumItemSheet";
 
 Hooks.once("init", function(){
@@ -9,4 +9,4 @@ Hooks.once("init", function(){
 
     Items.untegisterSheet("core", ItemSheet);
     Items.registerSheet("parabellum", ParabellumItemSheet, {makeDefault:true});
-})
+});

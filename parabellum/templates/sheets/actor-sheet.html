@@ -1,0 +1,35 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img class="profile.img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" heitght="64" width="64"/>
+        <div class="header-fields">
+            <h1 class="charname">
+                <input name="name" type="text" value="{{actor.name}}" placeholder="name"/>
+            </h1>
+            <div class="resource">
+                <input type="text" name="data.health.value" value="{{data.health.value}}" data-dtype="Number"/>
+                <span>/</span>
+                <input type="text" name="data.health.max" value="{{data.health.max}}" data-dtype="Number"/>
+            </div>
+            <div class="resource">
+                <input type="text" name="data.power.value" value="{{data.power.value}}" data-dtype="Number"/>
+                <span>/</span>
+                <input type="text" name="data.power.max" value="{{data.power.max}}" data-dtype="Number"/>
+            </div>
+        </div>
+    </header>
+{{!--Navigation Sheet Tab}}
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="arma" data-tab="templates">Descrição</a>
+        <a class="arma" data-tab="itens">itens</a>
+        <a class="arma" data-tab="bonus">Bonus</a>
+    </nav>
+
+    <section class="sheet-body">
+        <div class="tab.biography.active" data-group="primary" data-tab="description"></div>
+
+        <div class="tab.itens" data-group="primary" data-tab="Items"></div>
+
+        <div class="tab.attributes" data-group="primary" data-tab="attributes"></div>
+
+    </section>
+</form>

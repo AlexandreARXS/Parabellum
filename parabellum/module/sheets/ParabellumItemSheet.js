@@ -1,6 +1,6 @@
 export default class ParabellumItemSheet extends ItemSheet{
     get template(){
-        return 'system/parabellum/templates/sheets/${this.item.data.type} -.html';
+        return 'system/parabellum/templates/sheets/weapon-sheet.html';
     }
 
     getData(){
